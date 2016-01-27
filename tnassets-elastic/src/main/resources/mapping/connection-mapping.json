@@ -1,0 +1,206 @@
+{
+   "instance": {
+	  "properties": {
+	    "id": {
+	      "type": "string",
+	      "index": "not_analyzed",
+	      "store": true
+	    },
+	    "date": {
+	      "index": "not_analyzed",
+	      "type": "date",
+	      "format": "epoch_millis"
+	    },
+	    "instanceid": {
+	      "type": "string",
+	      "index": "not_analyzed",
+	      "store": true
+	    },
+	    "account": {
+	      "type": "string",
+	      "index": "not_analyzed",
+	      "store": true
+	    },
+	    "name": {
+	      "type": "string",
+	      "index": "not_analyzed",
+	      "store": true
+	    },
+	    "ip": {
+	      "type": "string",
+	      "index": "not_analyzed",
+	      "store": true
+	    },
+	    "extip": {
+	      "type": "string",
+	      "index": "not_analyzed",
+	      "store": true
+	    },
+	    "keyname": {
+	      "type": "string",
+	      "index": "not_analyzed",
+	      "store": true
+	    },
+	    "size": {
+	      "type": "string",
+	      "index": "not_analyzed",
+	      "store": true
+	    },
+	    "state": {
+	      "type": "string",
+	      "index": "not_analyzed",
+	      "store": true
+	    },
+	    "launch": {
+	      "type": "string",
+	      "index": "not_analyzed",
+	      "store": true
+	    },
+	    "device": {
+	      "type": "string",
+	      "index": "not_analyzed",
+	      "store": true
+	    },
+	    "az": {
+	      "type": "string",
+	      "index": "not_analyzed",
+	      "store": true
+	    },
+	    "sg": {
+	      "type": "string",
+	      "index": "not_analyzed",
+	      "store": true
+	    },
+	    "srcdst": {
+	      "type": "string",
+	      "index": "not_analyzed",
+	      "store": true
+	    },
+	    "mac": {
+	      "type": "string",
+	      "index": "not_analyzed",
+	      "store": true
+	    },
+	    "intid": {
+	      "type": "string",
+	      "index": "not_analyzed",
+	      "store": true
+	    },
+	    "spot": {
+	      "type": "string",
+	      "index": "not_analyzed",
+	      "store": true
+	    },
+	    "vmtype": {
+	      "type": "string",
+	      "index": "not_analyzed",
+	      "store": true
+	    },
+	    "owner": {
+	      "type": "string",
+	      "index": "not_analyzed",
+	      "store": true
+	    },
+	    "service": {
+	      "type": "string",
+	      "index": "not_analyzed",
+	      "store": true
+	    },
+	    "group": {
+	      "type": "string",
+	      "index": "not_analyzed",
+	      "store": true
+	    },
+	    "proj": {
+	      "type": "string",
+	      "index": "not_analyzed",
+	      "store": true
+	    },
+	    "image": {
+	      "type": "string",
+	      "index": "not_analyzed",
+	      "store": true
+	    },
+	    "role": {
+	      "type": "string",
+	      "index": "not_analyzed",
+	      "store": true
+	    },
+		"dedicatedPrice": {
+	      "type": "double",
+	      "index": "not_analyzed",
+	      "store": true
+	    },
+		"reservedPrice": {
+	      "type": "double",
+	      "index": "not_analyzed",
+	      "store": true
+	    },
+		"averagePrice": {
+	      "type": "double",
+	      "index": "not_analyzed",
+	      "store": true
+	    },
+	    "cpu": {
+	      "type": "double",
+	      "index": "not_analyzed",
+	      "store": true
+	    },
+	    "readBytes": {
+	      "type": "double",
+	      "index": "not_analyzed",
+	      "store": true
+	    },
+	    "readOps": {
+	      "type": "double",
+	      "index": "not_analyzed",
+	      "store": true
+	    },
+	    "writeBytes": {
+	      "type": "double",
+	      "index": "not_analyzed",
+	      "store": true
+	    },
+	    "writeOps": {
+	      "type": "double",
+	      "index": "not_analyzed",
+	      "store": true
+	    },
+	    "networkIn": {
+	      "type": "long",
+	      "index": "not_analyzed",
+	      "store": true
+	    },
+	    "networkOut": {
+	      "type": "long",
+	      "index": "not_analyzed",
+	      "store": true
+	    },
+	    "mem": {
+	      "type": "long",
+	      "index": "not_analyzed",
+	      "store": true
+	    },
+	    "memFree": {
+	      "type": "long",
+	      "index": "not_analyzed",
+	      "store": true
+	    },
+	    "cache": {
+	      "type": "long",
+	      "index": "not_analyzed",
+	      "store": true
+	    },
+	    "swap": {
+	      "type": "long",
+	      "index": "not_analyzed",
+	      "store": true
+	    },
+	    "pricingType": {
+	      "type": "string",
+	      "index": "not_analyzed",
+	      "store": true
+	    }
+	  }
+    }
+}

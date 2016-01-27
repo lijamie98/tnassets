@@ -1,0 +1,34 @@
+*.class
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.jar
+*.war
+*.ear
+
+# emacs backup files
+*~
+*.swp
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+
+#Eclipse files
+.settings/
+.project
+.classpath
+.metadata/
+.recommenders/
+
+# intellij files
+**/.idea/
+*.iml
+
+# all logs directories
+**/logs
+
+# Others
+RemoteSystemsTempFiles/
+Servers/

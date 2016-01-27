@@ -1,0 +1,24 @@
+@CHARSET "ISO-8859-1";
+
+html,body {
+	font-size: 12px;
+	font-family: verdana, helvetica, arial, sans-serif;
+	height:100%;
+	margin: 0px;
+	padding: 0px 0px 0px 0px;
+ 	background-color: #FFF8E1;
+}
+
+iframe {
+	FONT-SIZE: 11px;
+	FONT-FAMILY: "Verdana", "Arial", "Helvetica", "sans-serif";
+	color: #404040;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #b0d0f0;
+	PADDING-TOP: 0px;
+	PADDING-LEFT: 0px;
+	PADDING-BOTTOM: 0px;
+	PADDING-RIGHT: 0px;
+	vertical-align: middle;	
+}

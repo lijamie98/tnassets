@@ -1,0 +1,96 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<relativePath>../super</relativePath>
+		<groupId>com.telenav.tnassets</groupId>
+		<artifactId>tnassets-super</artifactId>
+		<version>1.0</version>
+	</parent>
+
+	<artifactId>tnassets-service</artifactId>
+	<packaging>jar</packaging>
+
+	<name>service</name>
+
+	<dependencies>
+		<!-- ElasticSearch -->
+		<dependency>
+			<groupId>org.elasticsearch</groupId>
+			<artifactId>elasticsearch</artifactId>
+			<version>2.1.1</version><!--$NO-MVN-MAN-VER$ -->
+		</dependency>
+
+		<dependency>
+			<groupId>com.google.guava</groupId>
+			<artifactId>guava</artifactId>
+			<version>18.0</version><!--$NO-MVN-MAN-VER$ -->
+		</dependency>
+
+		<dependency>
+			<groupId>mysql</groupId>
+			<artifactId>mysql-connector-java</artifactId>
+			<version>5.1.35</version><!--$NO-MVN-MAN-VER$ -->
+		</dependency>
+
+		<dependency>
+			<groupId>com.telenav.tnassets</groupId>
+			<artifactId>tnassets-jpa</artifactId>
+			<version>1.0</version>
+		</dependency>
+
+		<dependency>
+			<groupId>com.telenav.tnassets</groupId>
+			<artifactId>tnassets-elastic</artifactId>
+			<version>1.0</version>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-core</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-context</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-web</artifactId>
+		</dependency>
+		
+
+		<!-- For DNS lookup / reverse lookup -->
+		<dependency>
+			<groupId>dnsjava</groupId>
+			<artifactId>dnsjava</artifactId>
+			<version>2.0.6</version>
+		</dependency>
+
+
+		<!-- JSON -->
+
+		<dependency>
+			<groupId>com.fasterxml.jackson.core</groupId>
+			<artifactId>jackson-core</artifactId>
+			<version>2.6.4</version><!--$NO-MVN-MAN-VER$ -->
+		</dependency>
+ 
+		<!-- CRON -->
+		<dependency>
+			<groupId>it.sauronsoftware.cron4j</groupId>
+			<artifactId>cron4j</artifactId>
+			<version>2.2.5</version>
+		</dependency>
+
+
+
+		<!-- VMWare Java Library -->
+		<dependency>
+			<groupId>com.vmware</groupId>
+			<artifactId>vijava</artifactId>
+			<version>5.1</version>
+		</dependency>
+
+	</dependencies>
+</project>
